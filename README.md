@@ -1,16 +1,30 @@
-# React + Vite
+# Tenzies 🎲✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React game where you roll dice until all of them have the same value.  
+Click a die to hold it between rolls. Win the game to see a confetti celebration.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+https://yanal1234.github.io/tenzies-react/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
+![Tenzies Preview](public/image.png)
 
-## React Compiler
+## ✅ Features
+- Roll 10 dice until all values match
+- Hold/unhold dice by clicking
+- Win detection logic
+- Confetti celebration on win
+- New Game button after winning
+- Better UX with button focus on win
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧠 Built With
+- React (Hooks: useState, useEffect, useRef)
+- Vite
+- react-confetti
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Run Locally
+```bash
+git clone https://github.com/yanal1234/tenzies-react.git
+cd tenzies-react
+npm install
+npm run dev
