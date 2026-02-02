@@ -21,6 +21,20 @@ https://yanal1234.github.io/tenzies-react/
 - React (Hooks: useState, useEffect, useRef)
 - Vite
 - react-confetti
+- ## 🌍 Deploy to GitHub Pages
+
+```bash
+npm run deploy
+Then go to:
+- Settings → Pages
+- Branch: gh-pages
+- Folder: / (root)
+
+---
+
+## 👤 Author
+GitHub: https://github.com/yanal1234
+
 
 ## 🚀 Run Locally
 ```bash
